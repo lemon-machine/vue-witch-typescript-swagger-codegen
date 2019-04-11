@@ -1,0 +1,29 @@
+{
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-transform-runtime": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/runtime": "^7.4.3",
+    "@types/jest": "^24.0.11",
+    "@vue/component-compiler-utils": "^2.6.0",
+    "cssnano": "^4.1.10",
+    "jest": "^24.7.1",
+    "sass": "^1.17.3",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.4.3",
+    "vue": "^2.6.10",
+    "vue-hot-reload-api": "^2.3.3",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "dependencies": {
+    "es6-promise": "^4.2.6",
+    "portable-fetch": "^3.0.0",
+    "vue-json-pretty": "^1.6.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "testWithCoverage": "jest --coverage",
+    "build": "parcel build index.html --public-url=./",
+    "serve": "parcel  index.html "
+  }
+}

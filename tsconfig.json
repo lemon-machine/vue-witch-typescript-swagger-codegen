@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "experimentalDecorators": true,
+    "lib": [
+      "es2015",
+      "es2017",
+      "dom"
+    ],
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "plugins": [
+      {
+        "name": "ts-vue-plugin"
+      }
+    ],
+    "moduleResolution": "node"
+  }
+}
